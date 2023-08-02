@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-.App {
+.App,
+.baseapp {
   background-color: whitesmoke;
 }
 .Selection {
@@ -21,15 +22,16 @@ code {
   padding: 10px;
 }
 
-.footer-section{
-  display:flex;
+.footer-section {
+  display: flex;
   justify-content: space-between;
 }
 
-.footerright{
+.footerright {
   text-align: right;
 }
 
-.footerright, .footerleft{
+.footerright,
+.footerleft {
   padding: 1rem;
 }

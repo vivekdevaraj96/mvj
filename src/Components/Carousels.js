@@ -9,7 +9,7 @@ import TVS from "../Images/TVS.jpg";
 function Carousels() {
   return (
     <div>
-      <Carousel fade>
+      <Carousel fade indicators={false} touch={true}>
         <Carousel.Item interval={1500}>
           <img src={Bajaj} alt="Bajaj" width="100%" />
         </Carousel.Item>
