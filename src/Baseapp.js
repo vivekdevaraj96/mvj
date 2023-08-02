@@ -49,6 +49,7 @@ function Baseapp({ children }) {
                   <NavDropdown.Item href="#action5"  onClick={()=>navigate('/suzuki')}>Suzuki</NavDropdown.Item>
                   <NavDropdown.Item href="#action3"  onClick={()=>navigate('/tvs')}>TVS</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="#action1">🛒 Cart</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control
