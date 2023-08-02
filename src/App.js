@@ -40,10 +40,12 @@ function App() {
                 <NavDropdown
                   title="Brands"
                   id={`offcanvasNavbarDropdown-expand-md`}
-                >
-                  <NavDropdown.Item href="#action3">TVS</NavDropdown.Item>
+                >                  
                   <NavDropdown.Item href="#action4">Bajaj</NavDropdown.Item>
+                  <NavDropdown.Item href="#action5">Hero</NavDropdown.Item>
                   <NavDropdown.Item href="#action5">Honda</NavDropdown.Item>
+                  <NavDropdown.Item href="#action5">Suzuki</NavDropdown.Item>
+                  <NavDropdown.Item href="#action3">TVS</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Form className="d-flex">
