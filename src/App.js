@@ -31,7 +31,7 @@ function App() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
-                Offcanvas
+              MVJ Automobile Spares
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
