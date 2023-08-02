@@ -10,7 +10,13 @@ function Selection() {
           Bajaj
         </Button>
         <Button variant="outline-dark" size="lg">
+          Hero
+        </Button>
+        <Button variant="outline-dark" size="lg">
           Honda
+        </Button>
+        <Button variant="outline-dark" size="lg">
+          Suzuki
         </Button>
         <Button variant="outline-dark" size="lg">
           TVS
