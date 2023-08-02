@@ -22,16 +22,35 @@ code {
   padding: 10px;
 }
 
-.footer-section {
-  display: flex;
-  justify-content: space-between;
+@media (min-width: 767.98px) {
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerright {
+    text-align: right;
+  }
+
+  .footerright,
+  .footerleft {
+    padding: 1rem;
+  }
 }
 
-.footerright {
-  text-align: right;
-}
+@media (max-width: 767.98px) {
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
 
-.footerright,
-.footerleft {
-  padding: 1rem;
+  .footerright {
+    text-align: left;
+  }
+
+  .footerright,
+  .footerleft {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
